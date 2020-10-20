@@ -6,7 +6,7 @@ function lettersToUpper(string) {
 }
 
 function switchLetters(string) {
-  return string.charAt(1) + string.charAt(0);
+  return string[1] + string[0];
 }
 
 function newSentence(string, fullSentence) {
